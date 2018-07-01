@@ -8,12 +8,24 @@ li {
     text-align: center;
 }
 #Sign_in {
-  background-color: blue;
+  background-color: #6e94ec;;
   color: #fff;
   border-radius: 2px;
+  font-weight: 700;
 }
 #Gmail {
   margin-left: 1200px;
+}
+#dots {
+  background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+  background-position: -132px -38px;
+  background-position-x: -132px;
+  background-position-y: -40px;
+  background-size: 528px 75px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
 }
 #image_container {
   margin-bottom: 20px;
@@ -21,11 +33,14 @@ li {
   margin-top: 60px;
   margin-left: 700px;
 }
+
 #search_bar {
-  margin-left: 700px;
+  margin-left: 650px;
   outline: medium none currentcolor;
   width: 500px;
+  height: 32px;
   border: 1px solid;
+  box-shadow: 3px 3px whitesmoke, -3px -3px whitesmoke;
 }
 #below_search {
   margin-left: 700px;
@@ -47,6 +62,8 @@ li {
 .footer {
   position: absolute;
   bottom: 0;
+  left: 0;
+  right: 0;
   background-color: #ece9e9;
   padding: 3px 16px;
 }
