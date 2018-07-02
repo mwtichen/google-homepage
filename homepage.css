@@ -1,3 +1,4 @@
+ul {margin-left: 0;}
 li {
     display: inline;
     color: rgb(34, 34, 34);
@@ -14,7 +15,7 @@ li {
   font-weight: 700;
 }
 #Gmail {
-  margin-left: 1200px;
+  margin-left: 1290px;
 }
 #dots {
   background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
@@ -27,19 +28,26 @@ li {
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
 }
+#small_img {
+  position: absolute;
+  top: 100px;
+  left: 1130px;
+}
 #image_container {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-right: 600px;
   margin-top: 60px;
   margin-left: 700px;
 }
 
 #search_bar {
-  margin-left: 650px;
+  margin-left: 635px;
+  margin-bottom: 15px;
   outline: medium none currentcolor;
   width: 500px;
   height: 32px;
   border: 1px solid;
+  border-color: #e4dede;
   box-shadow: 3px 3px whitesmoke, -3px -3px whitesmoke;
 }
 #below_search {
@@ -47,10 +55,10 @@ li {
   height: 36px;
 }
 #below_search li {
-  border: 1px solid;
+  border: 1px solid #e4dede;
   background-color: #fff;
   font-family: arial,sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bold;
   margin: 11px 4px;
   padding: 12px 16px;
@@ -71,5 +79,5 @@ li {
   color: #696767;;
 }
 #Privacy {
-  margin-left: 1200px;
+  margin-left: 1290px;
 }
